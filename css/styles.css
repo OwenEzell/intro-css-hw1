@@ -1,0 +1,87 @@
+/* Sora font */
+@font-face {
+  font-family: "Sora";
+  src: url("../fonts/sora-variable");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* Caeclia regular */
+
+@font-face {
+  font-family: "Caecilia";
+  src: url("../fonts/caecilia-roman");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Caeclia italic */
+
+@font-face {
+  font-family: "Caecilia";
+  src: url(../fonts/caecilia-roman-italic);
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Caeclia bold */
+
+@font-face {
+  font-family: "Caecilia";
+  src: url(../fonts/caecilia-bold);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Caeclia bold italic*/
+
+@font-face {
+  font-family: "Caecilia";
+  src: url(../fonts/caecilia-bold-italic);
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: "Caecilia", serif;
+  font-size: 100%;
+  background-color: #f5f0e5;
+}
+
+header {
+  background-color: #fdfdfd;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+main {
+  background-color: #fdfdfd;
+  font-size: 100%;
+}
+
+footer {
+  background-color: #fdfdfd;
+}
+
+li {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  color: #3f3d3b;
+}
+
+p {
+  line-height: 1.5;
+  color: #302e2c;
+}
+
+a {
+  color: #000000;
+}
